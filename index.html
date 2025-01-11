@@ -7,20 +7,35 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             margin: 0;
             background-color: #d8f3dc;
             font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            font-size: 2rem;
+            color: #C2185B;
+            margin-bottom: 20px;
         }
         video {
+            max-width: 80%;
+            max-height: 70vh;
             border: 5px solid #FF69B4;
             border-radius: 15px;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #555;
         }
     </style>
 </head>
 <body>
+    <header>Play This</header>
     <video src="pie_for_sab.mp4" controls autoplay loop></video>
 </body>
 </html>
